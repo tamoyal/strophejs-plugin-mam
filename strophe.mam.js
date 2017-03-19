@@ -17,7 +17,7 @@ Strophe.addConnectionPlugin('mam', {
     _p: [ 'with', 'start', 'end' ],
     init: function (conn) {
         this._c = conn;
-        Strophe.addNamespace('MAM', 'urn:xmpp:mam:2');
+        Strophe.addNamespace('MAM', 'urn:xmpp:mam:1');
     },
     query: function (jid, options) {
         var _p = this._p;

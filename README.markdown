@@ -1,3 +1,7 @@
+## Important
+
+This branch is meant to be kept in sync with the official repo [here](https://github.com/strophe/strophejs-plugin-mam) except keep the name space at `mam:1` because some servers don't speak `mam:2` yet. For example, while Prosody's `mod_mam` speaks `mam:2`, `mod_mam_muc` does not. Furthermore, `mam:2` just adds features to `mam:1` that can be ignored.
+
 # strophe.mam.js
 
 strophe.mam.js is a plugin to provide Message Archiving Management
